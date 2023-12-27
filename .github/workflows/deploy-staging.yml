@@ -23,6 +23,5 @@ jobs:
 
     - name: Build and deploy to staging
       run: |
-        # Replace the following command with your deployment script
         npm run build
         ./deploy-to-staging.sh
